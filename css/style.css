@@ -1,0 +1,82 @@
+/*Variaveis de cor*/
+:root {
+  --primeira-cor: #026cb4;
+  --segunda-cor: #57bbff;
+  --terceira-cor: #ff6a6a;
+  --quarta-cor: #0865a3;
+  --quinta-cor: #575757;
+  --sexta-cor: #9b3c46;
+}
+
+/* Geral */
+p {
+  font-size: 1.8vh;
+}
+hr {
+  border: 3px solid var(--terceira-cor) !important;
+  width: 7.5vh;
+}
+.cor-azul {
+  color: var(--segunda-cor) !important;
+}
+.cor-laranja {
+  color: var(--terceira-cor);
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: "Barlow", sans-serif;
+  font: 37px/40px;
+}
+.navbar-brand {
+  font-size: 3vh !important;
+  color: var(--sexta-cor) !important;
+}
+.nav-link {
+  font-size: 1.5vh !important;
+}
+.circulos {
+  font-size: 3.5vh !important;
+  color: var(--quarta-cor);
+}
+.fab {
+  color: var(--quarta-cor) !important;
+}
+
+/* Sessão Principal */
+#fundo-azul-inicial {
+  height: 45vh;
+  background-color: var(--primeira-cor);
+  font-family: "Barlow", sans-serif;
+}
+#fundo-azul-inicial h1 {
+  font-size: 4.3vh;
+}
+#imagem-inicial {
+  height: 47vh;
+  padding: 0px;
+  background-image: url(../img/imagem-inicio.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Sessão Seja um Associado */
+#seja-um-associado h2 {
+  font-size: 3.9vh;
+  color: var(--primeira-cor);
+}
+#seja-um-associado p {
+  color: var(--primeira-cor);
+}
+ul {
+  list-style: none;
+}
+ul li::before {
+  /* O 2022 é o número referente aos pontos do parágrafo */
+  content: "\2022";
+  color: var(--terceira-cor);
+  font-weight: bold;
+  display: inline-block;
+  width: 1.5em;
+}
